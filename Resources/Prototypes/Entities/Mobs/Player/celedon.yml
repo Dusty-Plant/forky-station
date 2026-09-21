@@ -76,23 +76,11 @@
   - type: TypingIndicator
     proto: lizard
   - type: MindContainer
-    showExamineInfo: true
-  # I really dont know what I'm doing with inventory
   - type: Inventory
     speciesId: kangaroo
     templateId: raptorinventory
   - type: InventorySlots
-  - type: Temperature # temperature values taken from reptilian species
-    heatDamageThreshold: 400
-    coldDamageThreshold: 285
-    currentTemperature: 310.15
-    specificHeat: 42
-    coldDamage:
-      types:
-        Cold : 0.1 #per second, scales with temperature & other constants
-    heatDamage:
-      types:
-        Heat : 1.5 #per second, scales with temperature & other constants
+  - type: Temperature
   - type: TemperatureSpeed
     thresholds:
       301: 0.8
@@ -106,18 +94,12 @@
   - type: PassiveDamage # Slight passive regen. Assuming one damage type, comes out to about 4 damage a minute.
     allowedStates:
     - Alive
-    damageCap: 10 # capped at 10 instead of 20 because they have dinosaur resistances
     damage:
       types:
         Heat: -0.07
-      groups:
-        Brute: -0.07
   - type: Metabolizer
     solutionOnBody: false
     metabolizerTypes: [ Animal ]
-    groups:
-    - id: Medicine
-    - id: Poison
   - type: Dna
 
   - type: Speech
@@ -129,7 +111,6 @@
   - type: BodyEmotes
     soundsId: GeneralBodyEmotes
   - type: Damageable
-    damageContainer: Biological
   - type: GhostRole
     prob: 1
     makeSentient: true
@@ -140,7 +121,6 @@
     rules: ghost-role-information-freeagent-rules
   - type: GhostTakeoverAvailable
   - type: Butcherable
-    butcheringType: Spike
     spawned:
     - id: FoodMeatChicken
       amount: 4
