@@ -932,4 +932,11 @@
   id: 109
   time: '2026-09-27T05:02:51Z'
   url: https://github.com/funky-station/forky-station/pull/420
+- author: mkanke
+  changes:
+  - message: Tweak curb collision to make more sense
+    type: Tweak
+  id: 110
+  time: '2026-09-27T06:18:40Z'
+  url: https://github.com/funky-station/forky-station/pull/486
 Order: -1
