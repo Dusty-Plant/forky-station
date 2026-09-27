@@ -925,4 +925,11 @@
   id: 108
   time: '2026-09-26T19:33:09Z'
   url: https://github.com/funky-station/forky-station/pull/505
+- author: WiZ88
+  changes:
+  - message: Crew Monitoring console search bar now refreshes instantly
+    type: Fix
+  id: 109
+  time: '2026-09-27T05:02:51Z'
+  url: https://github.com/funky-station/forky-station/pull/420
 Order: -1
