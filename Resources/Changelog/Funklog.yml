@@ -1002,4 +1002,12 @@
   id: 116
   time: '2026-10-02T14:44:03Z'
   url: https://github.com/funky-station/forky-station/pull/559
+- author: pirakaplant, vectorassembly, Dogman20801
+  changes:
+  - message: Pen receptacles have been added (with sprites by @pirakaplant, @vectorassembly,
+      and @Dogman20801).
+    type: Add
+  id: 117
+  time: '2026-10-02T21:59:59Z'
+  url: https://github.com/funky-station/forky-station/pull/173
 Order: -1
