@@ -982,4 +982,17 @@
   id: 114
   time: '2026-10-02T14:23:07Z'
   url: https://github.com/funky-station/forky-station/pull/542
+- author: AraiMaia
+  changes:
+  - message: Added SIS/TR v3.20, a station infrastructure machine that manages all
+      automated station event announcements.
+    type: Add
+  - message: Rewrote station event and alert level announcements to fit SIS/TR.
+    type: Tweak
+  - message: Station events will no longer announce themselves if SIS/TR is unpowered
+      or destroyed.
+    type: Tweak
+  id: 115
+  time: '2026-10-02T14:31:45Z'
+  url: https://github.com/funky-station/forky-station/pull/550
 Order: -1
