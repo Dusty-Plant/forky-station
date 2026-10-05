@@ -1,24 +1,24 @@
 meta:
   format: 7
-  category: Grid
+  category: Map
   engineVersion: 289.0.0
   forkId: ""
   forkVersion: ""
-  time: 10/02/2026 09:40:22
-  entityCount: 25706
-maps: []
+  time: 10/04/2026 14:22:55
+  entityCount: 25707
+maps:
+- 25700
 grids:
 - 1
-orphans:
-- 1
+orphans: []
 nullspace:
-- 25700
 - 25701
 - 25702
 - 25703
 - 25704
 - 25705
 - 25706
+- 25707
 tilemap:
   5: Space
   1: FloorAsteroidSand
@@ -40,7 +40,7 @@ entities:
     - type: MetaData
       name: grid
     - type: Transform
-      parent: invalid
+      parent: 25700
       pos: -1.140625,1.53125
     - type: MapGrid
       chunks:
@@ -1245,24 +1245,27 @@ entities:
       fixtures: {}
     - type: ChunkContainer
       chunkEntities:
-      - 25700
       - 25701
       - 25702
       - 25703
       - 25704
       - 25705
       - 25706
+      - 25707
     - type: OccluderTree
     - type: MapLight
       ambientLightColor: '#787878FF'
     - type: Roof
-      data: {}
+      data:
+        -2,0: 15790320
+        -2,-1: 17361640998215614464
+        -1,0: 2039583
+        -1,-1: 2242545357980368896
     - type: TileHistory
       chunkHistory: {}
     - type: SpreaderGrid
     - type: Shuttle
       dampingModifier: 0.25
-    - type: ImplicitRoof
     - type: GridPathfinding
     - type: Gravity
       gravityShakeSound: !type:SoundPathSpecifier
@@ -2291,6 +2294,18 @@ entities:
     - type: GasTileOverlay
     - type: ExplosionAirtightGrid
     - type: RadiationGridResistance
+  - uid: 25700
+    components:
+    - type: MetaData
+      name: Map Entity
+    - type: Transform
+    - type: Map
+      mapPaused: True
+    - type: GridTree
+    - type: Broadphase
+    - type: ChunkContainer
+      chunkEntities: []
+    - type: OccluderTree
 - proto: ArabianLamp
   entities:
   - uid: 23133
@@ -2695,7 +2710,7 @@ entities:
       pos: -4.255018,10.918542
 - proto: ChunkEntity
   entities:
-  - uid: 25700
+  - uid: 25701
     components:
     - type: ChunkEntity
       root: 1
@@ -2767,7 +2782,7 @@ entities:
             color: '#FFB14CFF'
           decals:
             10: 21.14371,-6.656564
-  - uid: 25701
+  - uid: 25702
     components:
     - type: ChunkEntity
       root: 1
@@ -2794,7 +2809,7 @@ entities:
             color: '#FFB14CFF'
           decals:
             3: 24.11246,7.4723244
-  - uid: 25702
+  - uid: 25703
     components:
     - type: ChunkEntity
       root: 1
@@ -2863,7 +2878,7 @@ entities:
             color: '#FFFFFFFF'
           decals:
             16: 10.628441,74.361565
-  - uid: 25703
+  - uid: 25704
     components:
     - type: ChunkEntity
       root: 1
@@ -2911,7 +2926,7 @@ entities:
             color: '#FFFFFFFF'
           decals:
             9: 4.539153,81.05904
-  - uid: 25704
+  - uid: 25705
     components:
     - type: ChunkEntity
       root: 1
@@ -2941,7 +2956,7 @@ entities:
             color: '#FFFFFFFF'
           decals:
             3: -4.585847,82.46529
-  - uid: 25705
+  - uid: 25706
     components:
     - type: ChunkEntity
       root: 1
@@ -3037,7 +3052,7 @@ entities:
             color: '#FFFFFFFF'
           decals:
             26: -2.0918782,67.93334
-  - uid: 25706
+  - uid: 25707
     components:
     - type: ChunkEntity
       root: 1
