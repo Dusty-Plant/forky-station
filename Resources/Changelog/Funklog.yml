@@ -1017,4 +1017,11 @@
   id: 118
   time: '2026-10-05T12:03:31Z'
   url: https://github.com/funky-station/forky-station/pull/484
+- author: mkanke
+  changes:
+  - message: Buttons and switches can now be built 3 per wall
+    type: Tweak
+  id: 119
+  time: '2026-10-05T13:20:10Z'
+  url: https://github.com/funky-station/forky-station/pull/400
 Order: -1
