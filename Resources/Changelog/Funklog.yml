@@ -1010,4 +1010,11 @@
   id: 117
   time: '2026-10-02T21:59:59Z'
   url: https://github.com/funky-station/forky-station/pull/173
+- author: mkanke-real
+  changes:
+  - message: Fixed missing accesses from access config
+    type: Fix
+  id: 118
+  time: '2026-10-05T12:03:31Z'
+  url: https://github.com/funky-station/forky-station/pull/484
 Order: -1
