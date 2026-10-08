@@ -1061,4 +1061,13 @@
   id: 124
   time: '2026-10-08T21:32:46Z'
   url: https://github.com/funky-station/forky-station/pull/573
+- author: mycobiota
+  changes:
+  - message: Added a "Radio channel theme" dropdown to the general tab of options
+      that lets you choose between Wizden radio colors and Funky radio colors. (Funky
+      is selected by default)
+    type: Add
+  id: 125
+  time: '2026-10-08T21:43:54Z'
+  url: https://github.com/funky-station/forky-station/pull/563
 Order: -1
