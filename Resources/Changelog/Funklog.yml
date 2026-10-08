@@ -1045,4 +1045,13 @@
   id: 122
   time: '2026-10-08T18:02:52Z'
   url: https://github.com/funky-station/forky-station/pull/374
+- author: WiZ88
+  changes:
+  - message: Vision now updates quicker when entering and leaving closed storage containers.
+    type: Fix
+  - message: Entities can no longer see items while inside a closed container.
+    type: Fix
+  id: 123
+  time: '2026-10-08T18:12:34Z'
+  url: https://github.com/funky-station/forky-station/pull/499
 Order: -1
