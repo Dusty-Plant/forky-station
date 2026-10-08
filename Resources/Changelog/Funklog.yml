@@ -1038,4 +1038,11 @@
   id: 121
   time: '2026-10-08T17:37:05Z'
   url: https://github.com/funky-station/forky-station/pull/502
+- author: mkanke-real
+  changes:
+  - message: Added an alternate recipe for Gunpowder
+    type: Add
+  id: 122
+  time: '2026-10-08T18:02:52Z'
+  url: https://github.com/funky-station/forky-station/pull/374
 Order: -1
