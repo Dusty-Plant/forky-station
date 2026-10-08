@@ -64,7 +64,7 @@
             Botanist: [ 2, 3 ]
             CargoTechnician: [ 4, 4 ]
             FuCourier: [ 1, 1 ]
-            Prisoner: [ 1, 1 ]
+            Prisoner: [ 3, 3 ]
             #civilian
             Passenger: [ -1, -1 ]
             Clown: [ 1, 1 ]
