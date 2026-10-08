@@ -1079,4 +1079,11 @@
   id: 126
   time: '2026-10-08T21:47:57Z'
   url: https://github.com/funky-station/forky-station/pull/539
+- author: mkanke
+  changes:
+  - message: Tweaked and expanded coat inventories
+    type: Tweak
+  id: 127
+  time: '2026-10-08T21:55:06Z'
+  url: https://github.com/funky-station/forky-station/pull/544
 Order: -1
