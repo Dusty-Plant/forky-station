@@ -1054,4 +1054,11 @@
   id: 123
   time: '2026-10-08T18:12:34Z'
   url: https://github.com/funky-station/forky-station/pull/499
+- author: AraiMaia
+  changes:
+  - message: Reagent fires set you on fire.
+    type: Tweak
+  id: 124
+  time: '2026-10-08T21:32:46Z'
+  url: https://github.com/funky-station/forky-station/pull/573
 Order: -1
