@@ -1086,4 +1086,11 @@
   id: 127
   time: '2026-10-08T21:55:06Z'
   url: https://github.com/funky-station/forky-station/pull/544
+- author: mycobiota
+  changes:
+  - message: Getting gibbed now also cuts to black.
+    type: Tweak
+  id: 128
+  time: '2026-10-09T02:34:13Z'
+  url: https://github.com/funky-station/forky-station/pull/575
 Order: -1
