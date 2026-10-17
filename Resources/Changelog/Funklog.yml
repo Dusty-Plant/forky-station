@@ -1119,4 +1119,25 @@
   id: 131
   time: '2026-10-12T03:30:51Z'
   url: https://github.com/funky-station/forky-station/pull/577
+- author: mkanke
+  changes:
+  - message: Service blinker lights are now craftable
+    type: Add
+  id: 132
+  time: '2026-10-16T18:44:11Z'
+  url: https://github.com/funky-station/forky-station/pull/398
+- author: ClocksAreWorthy
+  changes:
+  - message: 9 variations the comfy chair
+    type: Add
+  id: 133
+  time: '2026-10-16T18:45:23Z'
+  url: https://github.com/funky-station/forky-station/pull/416
+- author: mkanke, Gosera
+  changes:
+  - message: Ported small pinboard from old Funky
+    type: Add
+  id: 134
+  time: '2026-10-17T00:01:48Z'
+  url: https://github.com/funky-station/forky-station/pull/273
 Order: -1
