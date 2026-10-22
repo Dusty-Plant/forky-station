@@ -4,10 +4,10 @@
   id: MobCeledonRaptor
   description: Before the genetics lab on Europa was shut down, an activist group fought to save the animals about to be euthanized. Celedon is still untrusting of most humanoids, but maybe they can be rehabilitated.
   components:
-  # Code for Celedon is copied from LaserRaptor, Pun pun, Remilia, Willow, and Impstation's dinosaurs
+  # Original code for Celedon was copied from LaserRaptor, Pun pun, Remilia, Willow, and Impstation's dinosaurs. It has been somewhat modified for the port to the new Funky codebase (Forky)
   - type: Sprite
     drawdepth: Mobs
-    sprite: Mobs/Pets/celedon.rsi
+    sprite: _Funkystation/Mobs/Animals/celedon.rsi
     layers:
     - map: [ "enum.DamageStateVisualLayers.Base" ]
       state: celedon_raptor
