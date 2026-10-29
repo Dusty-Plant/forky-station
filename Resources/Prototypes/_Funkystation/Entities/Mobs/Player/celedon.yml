@@ -2,7 +2,7 @@
   name: Celedon
   parent: MobBaseAncestor
   id: MobCeledonRaptor
-  description: Before the genetics lab on Europa was shut down, an activist group fought to save the animals about to be euthanized. Celedon is still untrusting of most humanoids, but maybe they can be rehabilitated.
+  description: The feathery result of multiple genome experiments. Found to be useless for most purposes, it's fate is to be endlessly observed from beyond a window. 
   components:
   # Original code for Celedon was copied from LaserRaptor, Pun pun, Remilia, Willow, and Impstation's dinosaurs. It has been somewhat modified for the port to the new Funky codebase (Forky)
   - type: Sprite
@@ -75,7 +75,6 @@
     attackMemoryLength: 10
   - type: TypingIndicator
     proto: lizard
-  - type: MindContainer
   - type: Inventory
     speciesId: kangaroo
     templateId: raptorinventory
@@ -111,15 +110,6 @@
   - type: BodyEmotes
     soundsId: GeneralBodyEmotes
   - type: Damageable
-  - type: GhostRole
-    prob: 1
-    makeSentient: true
-    allowSpeech: true
-    allowMovement: true
-    name: ghost-role-information-celedon-name
-    description: ghost-role-information-celedon-description
-    rules: ghost-role-information-freeagent-rules
-  - type: GhostTakeoverAvailable
   - type: Butcherable
     spawned:
     - id: FoodMeatChicken
@@ -151,7 +141,6 @@
     rootTask:
       task: SimpleHostileCompound
   - type: Alerts
-  - type: Familiar
   - type: InteractionPopup
     successChance: 0.5
     interactSuccessString: petting-success-reptile
