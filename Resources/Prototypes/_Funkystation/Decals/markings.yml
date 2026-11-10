@@ -1,0 +1,7 @@
+- type: decal
+  id: WarningWalk
+  tags: ["station", "markings"]
+  defaultCustomColor: true
+  sprite:
+    sprite: _Funkystation/Decals/markings.rsi
+    state: warning_walk
